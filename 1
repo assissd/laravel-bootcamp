@@ -1,0 +1,35 @@
+1- Instalação:
+
+Instale o Laravel seguindo as instruções da documentação oficial do Laravel.
+2- Criação de Chirps:
+
+Crie o projeto Laravel usando o comando laravel new project-name.
+Navegue para o diretório do projeto usando cd project-name.
+Crie o banco de dados e configure as credenciais no arquivo .env.
+Crie um modelo e uma migração para a entidade "Chirp" usando o comando php artisan make:model Chirp -m.
+Defina os campos necessários no arquivo de migração gerado no diretório database/migrations.
+Execute as migrações para criar a tabela no banco de dados usando o comando php artisan migrate.
+Crie um controlador para manipular as operações relacionadas aos Chirps usando o comando php artisan make:controller ChirpController.
+Implemente as ações necessárias no controlador para criar, mostrar, editar e excluir Chirps.
+3- Exibição de Chirps:
+
+Crie rotas no arquivo routes/web.php para mapear as URLs para as ações do controlador.
+Implemente os métodos correspondentes no controlador para exibir Chirps.
+4-  Edição de Chirps:
+
+Implemente métodos no controlador para editar Chirps.
+5- Exclusão de Chirps:
+
+Implemente métodos no controlador para excluir Chirps.
+6- Notificações e Eventos:
+
+Crie notificações personalizadas para diferentes eventos relacionados aos Chirps, como criação, edição ou exclusão.
+Implemente os eventos necessários para acionar as notificações.
+7- Versionando no repositório do GitHub:
+
+Crie um repositório no GitHub.
+Inicialize um repositório Git no diretório do projeto usando o comando git init.
+Adicione todos os arquivos ao Git usando o comando git add ..
+Faça o commit dos arquivos usando o comando git commit -m "Initial commit".
+Adicione o URL do repositório remoto como o origin usando o comando git remote add origin <URL do repositório>.
+Envie os commits para o repositório remoto usando o comando git push -u origin master.
